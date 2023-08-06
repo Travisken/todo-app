@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="todo.css">
+  <title>Frontend Mentor | Todo app</title>
+</head>
+<body onload="loaded()">
+<section class="container">
+  <header class="header">
+
+  </header>
+
+  <section class="todo-app">
+    <section class="todo-app-content">
+
+      <div class="row">
+        <h1>
+          T O D O
+        </h1>
+    
+    
+        <span onclick="themeChanger()" id="theme" class="theme"></span>
+       </div>
+       
+       <div class="input">
+        <span class="material-symbols-outlined" onclick="addTask()">
+          add_circle
+          </span>
+        <!-- <button type="submit"></button> -->
+        <input type="text" id="input-task" placeholder="Create a new todo...">
+       </div>
+
+       <div class="list">
+        <ul id="list-container" class="list-container">
+
+
+         
+         
+          
+        </ul>
+<section class="footer">
+  <p> <span id="num-span">0</span>
+     items left</p>
+  <div class="footer-center">
+    <p>
+      All
+    </p>
+  
+    <p>
+      Active
+    </p>
+    <p>
+      Completed
+    </p>
+  
+  </div>
+
+  <p id="clear-comp">
+    Clear Completed
+  </p>
+</section>
+
+<section class="footer2">
+  <div class="footer2-center">
+    <p>
+      All
+    </p>
+  
+    <p>
+      Active
+    </p>
+    <p>
+      Completed
+    </p>
+  
+  </div>
+</section>
+        
+       </div>
+
+    </section>
+   
+  </section>
+</section>
+
+<script src="todo.js"></script>
+</body>
+</html>
+
+
